@@ -10,6 +10,14 @@ body {
     font-size: 1rem;
 }
 
+.wrap {
+    max-width: 1080px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
 .header {
     max-width: 1330px;
     display: flex;
@@ -36,4 +44,53 @@ body {
 
 .menu li a:hover {
     color: #FA4A0C;
+}
+
+.download_wrap {
+    background: url(img/bg-app.png) center center no-repeat;
+    background-size: cover;
+    padding: 75px 0 145px 0;
+}
+
+.download {
+    color: #ffffff;
+    text-align: center;
+}
+
+.download_txt {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+.download_title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-bottom: 30px;
+}
+
+.download_subtitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 60px;
+}
+
+.btn {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 16px 60px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.btn--red {
+    border-color: #FA4A0C;
+    background: #FA4A0C;
 }
